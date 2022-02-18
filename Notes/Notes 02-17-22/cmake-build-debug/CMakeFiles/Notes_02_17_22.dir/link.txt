@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Notes_02_17_22.dir/main.cpp.o CMakeFiles/Notes_02_17_22.dir/Book.cpp.o -o Notes_02_17_22 
