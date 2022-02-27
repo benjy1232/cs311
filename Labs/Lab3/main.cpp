@@ -18,26 +18,26 @@ private:
 	std::string _author;
 	unsigned _printLength;
 	std::string _publicationDate;
-	std::string _ISBN_10;
-	std::string _ISBN_13;
+	std::string _ISBN10;
+	std::string _ISBN13;
 
 public:
 	Book()
 			: _title(), _author(), _printLength(0),
-			  _publicationDate(), _ISBN_10(), _ISBN_13()
+			  _publicationDate(), _ISBN10(), _ISBN13()
 	{
 	}
 
 	Book(std::string& title, std::string& author)
 			: _title(title), _author(author), _printLength(0),
-			  _publicationDate(), _ISBN_10(), _ISBN_13()
+			  _publicationDate(), _ISBN10(), _ISBN13()
 	{
 	}
 
 	Book(std::string& title, std::string& author, unsigned length,
 			std::string& pubDate, std::string& isbn10, std::string& isbn13)
 			: _title(title), _author(author), _printLength(length),
-			  _publicationDate(pubDate), _ISBN_10(isbn10), _ISBN_13(isbn13)
+			  _publicationDate(pubDate), _ISBN10(isbn10), _ISBN13(isbn13)
 	{
 	}
 
@@ -64,12 +64,12 @@ public:
 
 	void setISBN_10(std::string& isbn)
 	{
-		_ISBN_10 = isbn;
+		_ISBN10 = isbn;
 	}
 
 	void setISBN_13(std::string& isbn)
 	{
-		_ISBN_13 = isbn;
+		_ISBN13 = isbn;
 	}
 
 	// getters
@@ -95,12 +95,12 @@ public:
 
 	std::string getISBN_10() const
 	{
-		return _ISBN_10;
+		return _ISBN10;
 	}
 
 	std::string getISBN_13() const
 	{
-		return _ISBN_13;
+		return _ISBN13;
 	}
 };
 

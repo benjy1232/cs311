@@ -1,4 +1,4 @@
-/home/bserrano/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/bserrano/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/ninja/linux/ninja -G Ninja "/home/bserrano/Spring 2022/CS311/Labs/Lab 3"
+/app/extra/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /var/home/bserrano/spring-2022/CS311/Labs/Lab3
 -- The C compiler identification is GNU 11.2.0
 -- The CXX compiler identification is GNU 11.2.0
 -- Detecting C compiler ABI info
@@ -13,4 +13,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/bserrano/Spring 2022/CS311/Labs/Lab 3/cmake-build-debug
+-- Build files have been written to: /var/home/bserrano/spring-2022/CS311/Labs/Lab3/cmake-build-debug

@@ -1,4 +1,4 @@
-# Install script for directory: /home/bserrano/Spring 2022/CS311/Labs/Lab 3
+# Install script for directory: /var/home/bserrano/spring-2022/CS311/Labs/Lab3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
+  set(CMAKE_INSTALL_SO_NO_EXE "0")
 endif()
 
 # Is this installation the result of a crosscompile?
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/bserrano/Spring 2022/CS311/Labs/Lab 3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/var/home/bserrano/spring-2022/CS311/Labs/Lab3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
