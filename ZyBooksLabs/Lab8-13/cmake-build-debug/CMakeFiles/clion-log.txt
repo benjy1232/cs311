@@ -1,0 +1,4 @@
+"C:\Users\Benjamin Serrano\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.7172.20\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Users/Benjamin Serrano/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.7172.20/bin/ninja/win/ninja.exe" -G Ninja "C:\Users\Benjamin Serrano\Documents\Spring 2022\CS311\ZyBooksLabs\Lab8-13"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Benjamin Serrano/Documents/Spring 2022/CS311/ZyBooksLabs/Lab8-13/cmake-build-debug
