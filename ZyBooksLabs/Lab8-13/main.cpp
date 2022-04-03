@@ -68,6 +68,7 @@ int main () {
    currNode = new BookNode(bookTitle, bookAuthor, bookISBN);
    // TODO: Call LL_Library's InsertSorted() method to insert currNode and return
    //       the number of operations performed
+   linkedListOperations = linkedListLibrary.InsertSorted(currNode, linkedListOperations);
 
    linkedListLibrary.lastNode = currNode;
 
@@ -75,9 +76,12 @@ int main () {
    tempBook  = Book(bookTitle, bookAuthor, bookISBN);
    // TODO: Call VectorLibrary's InsertSorted() method to insert tempBook and return
    //       the number of operations performed
+   vectorOperations = vectorLibrary.InsertSorted(tempBook, vectorOperations);
 
    // TODO: Print number of operations for linked list
+   std::cout << "Number of linked list operations: "<< linkedListOperations << std::endl;
 
    // TODO: Print number of operations for vector
+    std::cout << "Number of vector operations: "<< vectorOperations << std::endl;
 
 }

@@ -1,0 +1,7 @@
+# ninja log v5
+16	370	6704497886922254	CMakeFiles/Lab8_13.dir/Book.cpp.obj	679fc14c32a9c75d
+13	372	6704497886922254	CMakeFiles/Lab8_13.dir/LinkedListLibrary.cpp.obj	86ccb2b5e467aa98
+21	374	6704497886965548	CMakeFiles/Lab8_13.dir/BookNode.cpp.obj	c012f4b0b758992a
+0	444	6704497887715370	CMakeFiles/Lab8_13.dir/main.cpp.obj	660169c3cf2e02ca
+10	453	6704497887763552	CMakeFiles/Lab8_13.dir/VectorLibrary.cpp.obj	685f4e142d41077f
+453	652	6704497889711032	Lab8_13.exe	6d13f576c8fc39f9
